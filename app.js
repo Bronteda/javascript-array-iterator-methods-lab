@@ -458,6 +458,9 @@ travelMethodCounts = travelMethods.reduce((acc, method) => {
   return acc;
 }, {});
 
+//can also use an if statement
+//we used a square bracket as it is a dynamic property name
+
 // Check your work:
 console.log('Level Up 2 my result: ', travelMethodCounts);
 console.log('Level Up 2 correct result: ', {
